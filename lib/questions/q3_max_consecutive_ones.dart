@@ -23,9 +23,21 @@ import 'package:flutter/foundation.dart';
 // 【解答欄】
 class Solution {
   int findMaxConsecutiveOnes(List<int> nums) {
-    // TODO: ここに自分の解答を書いてください。
-    // 書き終えたら、下の throw を置き換えてください。
-    throw UnimplementedError('Q3 はまだ未回答です');
+    int currentCount = 0;
+    int maxCount = 0;
+
+    for (final num in nums) {
+      if (num == 1) {
+        currentCount++;
+
+        if (currentCount > maxCount) {
+          maxCount = currentCount;
+        } else {
+          currentCount = 0;
+        }
+      }
+    }
+    return maxCount;
   }
 }
 
