@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart';
 
-import 'questions/q1_concatenation_of_array.dart';
-import 'questions/q2_shuffle_the_array.dart' show runQ2Tests;
-import 'questions/q3_max_consecutive_ones.dart' show runQ3Tests;
+import 'questions/section1/q1_concatenation_of_array.dart';
+import 'questions/section1/q2_shuffle_the_array.dart' show runQ2Tests;
+import 'questions/section1/q3_max_consecutive_ones.dart' show runQ3Tests;
 
 void main() {
   if (kDebugMode) {

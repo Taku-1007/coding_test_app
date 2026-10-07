@@ -1,4 +1,4 @@
-import 'package:coding_test_app/questions/q1_concatenation_of_array.dart';
+import 'package:coding_test_app/questions/section1/q1_concatenation_of_array.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_test/flutter_test.dart';
 

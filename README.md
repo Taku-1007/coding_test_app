@@ -3,7 +3,7 @@
 ## 問題の実行
 
 アプリをデバッグ起動すると、デバッグコンソールにQ1の入力・期待値・実際の結果・PASS/FAILと集計が表示されます。
-回答コードとサンプルケースは `lib/questions/q1_concatenation_of_array.dart` にあります。
+回答コードとサンプルケースは `lib/questions/section1/q1_concatenation_of_array.dart` にあります。
 編集後に再実行する場合は、ホットリスタートを使ってください（ホットリロードでは起動処理は再実行されません）。
 
 自動テスト: `flutter test`
